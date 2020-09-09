@@ -1,5 +1,5 @@
 from flask import Flask, send_file
-from plotdata Import regression_plot
+from plotdata import regression_plot
 
 app = Flask(__name__)
 @app.route('/' , methods = ['GET'])
